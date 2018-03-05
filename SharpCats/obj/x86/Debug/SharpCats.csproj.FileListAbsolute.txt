@@ -1,12 +1,6 @@
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCats/bin/Debug/SharpCats.exe
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCats/bin/Debug/SharpCats.pdb
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCats/obj/x86/Debug/SharpCats.csproj.CoreCompileInputs.cache
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCats/obj/x86/Debug/SharpCats.exe
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCats/obj/x86/Debug/SharpCats.pdb
 C:/Users/Gordon/Desktop/repos/SharpCats/SharpCats/bin/Debug/SharpCats.exe
 C:/Users/Gordon/Desktop/repos/SharpCats/SharpCats/bin/Debug/SharpCats.pdb
 C:/Users/Gordon/Desktop/repos/SharpCats/SharpCats/obj/x86/Debug/SharpCats.csprojResolveAssemblyReference.cache
 C:/Users/Gordon/Desktop/repos/SharpCats/SharpCats/obj/x86/Debug/SharpCats.csproj.CoreCompileInputs.cache
 C:/Users/Gordon/Desktop/repos/SharpCats/SharpCats/obj/x86/Debug/SharpCats.exe
 C:/Users/Gordon/Desktop/repos/SharpCats/SharpCats/obj/x86/Debug/SharpCats.pdb
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCats/obj/x86/Debug/SharpCats.csprojResolveAssemblyReference.cache

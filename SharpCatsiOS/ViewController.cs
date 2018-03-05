@@ -17,13 +17,13 @@ namespace SharpCatsiOS
             // Perform any additional setup after loading the view, typically from a nib.
 
 
-            buttonAdd.TouchUpInside+= ButtonAdd_TouchUpInside1;
-            buttonSubtract.TouchUpInside+= ButtonSubtract_TouchUpInside1;
+            buttonAddNew.TouchUpInside += ButtonAddNew_TouchUpInside;
+            buttonSubtract.TouchUpInside+= ButtonSubtract_TouchUpInside;
             buttonMultiply.TouchUpInside+= ButtonMultiply_TouchUpInside;
             buttonDivide.TouchUpInside+= ButtonDivide_TouchUpInside;
         }
 
-        void ButtonAdd_TouchUpInside1(object sender, EventArgs e)
+        void ButtonAddNew_TouchUpInside(object sender, EventArgs e)
         {
             float num1 = float.Parse(txtbox1stnum.Text);
             float num2 = float.Parse(txtbox2ndnum.Text);
@@ -33,7 +33,8 @@ namespace SharpCatsiOS
             labelReply.Text = result.ToString();
         }
 
-        void ButtonSubtract_TouchUpInside1(object sender, EventArgs e)
+
+        void ButtonSubtract_TouchUpInside(object sender, EventArgs e)
         {
             float num1 = float.Parse(txtbox1stnum.Text);
             float num2 = float.Parse(txtbox2ndnum.Text);
