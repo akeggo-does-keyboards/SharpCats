@@ -87,10 +87,26 @@
                         <outlet property="buttonSubtract" destination="839" id="name-outlet-839"/>
                         <outlet property="buttonAddNew" destination="2729" id="name-outlet-2729"/>
                     </connections>
+                    <navigationItem id="3082" key="navigationItem" title="Main"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="642" y="39"/>
+        </scene>
+        <scene sceneID="2955">
+            <objects>
+                <navigationController id="2956" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2958">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="3083" destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2959" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75" y="29"/>
         </scene>
     </scenes>
 </document>
