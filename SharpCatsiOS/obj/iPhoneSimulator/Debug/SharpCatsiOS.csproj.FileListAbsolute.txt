@@ -1,9 +1,0 @@
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/bin/iPhoneSimulator/Debug/SharpCatsiOS.exe
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/bin/iPhoneSimulator/Debug/SharpCatsiOS.pdb
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/obj/iPhoneSimulator/Debug/optimized/
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/obj/iPhoneSimulator/Debug/SharpCatsiOS.csproj.CoreCompileInputs.cache
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/obj/iPhoneSimulator/Debug/SharpCatsiOS.exe
-/Users/gordonl2/Desktop/repos/SharpCats/SharpCatsiOS/obj/iPhoneSimulator/Debug/SharpCatsiOS.pdb

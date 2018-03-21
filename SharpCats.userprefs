@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{30A0C6F5-FA5A-412B-B445-CD5C4EFA6915}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="SharpCatsiOS/Main.storyboard">
     <Files>
-      <File FileName="SharpCatsiOS/ViewController.cs" Line="19" Column="13" />
+      <File FileName="SharpCatsiOS/ViewController.cs" Line="35" Column="9" />
       <File FileName="SharpCatsiOS/Main.cs" Line="12" Column="1" />
       <File FileName="SharpCatsiOS/AppDelegate.cs" Line="6" Column="33" />
       <File FileName="SharpCatsiOS/ViewController.designer.cs" Line="1" Column="1" />
       <File FileName="SharpCatsiOS/Main.storyboard" />
+      <File FileName="SharpCatsiOS/detailsViewController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

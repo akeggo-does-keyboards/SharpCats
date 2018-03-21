@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2956">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -76,6 +76,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3304" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="159" y="564" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show Details"/>
+                                <connections>
+                                    <segue id="3349" destination="3300" kind="show"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -87,11 +95,11 @@
                         <outlet property="buttonSubtract" destination="839" id="name-outlet-839"/>
                         <outlet property="buttonAddNew" destination="2729" id="name-outlet-2729"/>
                     </connections>
-                    <navigationItem id="3082" key="navigationItem" title="Main"/>
+                    <navigationItem id="3082" key="navigationItem" title="Calculator"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="642" y="39"/>
+            <point key="canvasLocation" x="704" y="-1"/>
         </scene>
         <scene sceneID="2955">
             <objects>
@@ -106,7 +114,36 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2959" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-75" y="29"/>
+            <point key="canvasLocation" x="277" y="12"/>
+        </scene>
+        <scene sceneID="3299">
+            <objects>
+                <viewController id="3300" sceneMemberID="viewController" customClass="detailsViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3297"/>
+                        <viewControllerLayoutGuide type="bottom" id="3298"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3301">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4205" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="198" y="270" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="labelDetailsNew" destination="4205" id="name-outlet-4205"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3302" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-174" y="-8"/>
         </scene>
     </scenes>
 </document>
